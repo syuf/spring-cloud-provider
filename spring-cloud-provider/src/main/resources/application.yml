@@ -9,3 +9,5 @@ eureka:
 spring:
   application:
     name: qr-channel
+  zipkin:
+    base-url: http://localhost:3006
