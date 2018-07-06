@@ -6,13 +6,13 @@ import com.alibaba.fastjson.JSON;
 import com.zlpay.common.feign.dto.PayDTO;
 import com.zlpay.common.feign.dto.PayResultDTO;
 import com.zlpay.common.feign.enums.RespCodeEnum;
-import com.zlpay.eurekap.service.CiticService;
+import com.zlpay.eurekap.service.ProviderService;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Service("citicService")
-public class CiticServiceImpl implements CiticService {
+@Service("providerService")
+public class ProviderServiceImpl implements ProviderService {
 
 	@Override
 	public PayResultDTO pay(PayDTO dto) {

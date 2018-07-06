@@ -3,7 +3,7 @@ package com.zlpay.eurekap.service;
 import com.zlpay.common.feign.dto.PayDTO;
 import com.zlpay.common.feign.dto.PayResultDTO;
 
-public interface CiticService {
+public interface ProviderService {
 	
 	/**
 	* @Description: 支付  
