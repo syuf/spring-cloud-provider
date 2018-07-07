@@ -1,4 +1,4 @@
-package com.zlpay.eurekap;
+package com.zlpay;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;

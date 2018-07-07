@@ -1,4 +1,4 @@
-package com.zlpay.eurekap.controller;
+package com.zlpay.provder.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.alibaba.fastjson.JSON;
 import com.zlpay.common.feign.dto.PayDTO;
 import com.zlpay.common.feign.dto.PayResultDTO;
-import com.zlpay.eurekap.service.ProviderService;
+import com.zlpay.provder.service.ProviderService;
 
 import lombok.extern.slf4j.Slf4j;
 

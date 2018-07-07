@@ -1,4 +1,4 @@
-package com.zlpay.eurekap.service.impl;
+package com.zlpay.provder.service.impl;
 
 import org.springframework.stereotype.Service;
 
@@ -6,7 +6,7 @@ import com.alibaba.fastjson.JSON;
 import com.zlpay.common.feign.dto.PayDTO;
 import com.zlpay.common.feign.dto.PayResultDTO;
 import com.zlpay.common.feign.enums.RespCodeEnum;
-import com.zlpay.eurekap.service.ProviderService;
+import com.zlpay.provder.service.ProviderService;
 
 import lombok.extern.slf4j.Slf4j;
 

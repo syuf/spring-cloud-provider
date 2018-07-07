@@ -1,4 +1,4 @@
-package com.zlpay.eurekap.service;
+package com.zlpay.provder.service;
 
 import com.zlpay.common.feign.dto.PayDTO;
 import com.zlpay.common.feign.dto.PayResultDTO;
